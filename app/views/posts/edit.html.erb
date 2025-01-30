@@ -1,0 +1,16 @@
+<% content_for :title, "Editing post" %>
+
+<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div class="mb-8">
+    <h1 class="text-3xl font-bold text-gray-900">Edit Post</h1>
+  </div>
+
+  <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+    <%= render "form", post: @post %>
+  </div>
+
+  <div class="mt-6 flex gap-4">
+    <%= link_to "Back to post", @post, class: "text-gray-600 hover:text-gray-800 font-medium" %>
+    <%= link_to "Back to posts", posts_path, class: "text-gray-600 hover:text-gray-800 font-medium" %>
+  </div>
+</div>
