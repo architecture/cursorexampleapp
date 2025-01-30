@@ -20,7 +20,7 @@ A modern, responsive blog application built with Ruby on Rails 7 and Tailwind CS
 - Ruby on Rails 7.0
 - Tailwind CSS 3.0
 - Hotwire (Turbo & Stimulus)
-- PostgreSQL
+- PostgreSQL (Actually using SQLite3)
 - Redis for Action Cable
 - Active Storage with AWS S3
 - Devise for authentication
